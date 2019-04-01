@@ -1,0 +1,178 @@
+
+communism_mechanic = {
+	basic_reform = yes
+	republican_name = yes
+	royal_marriage = no
+	republic = yes
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+
+	valid_for_nation_designer = no
+}
+
+#Peoples Power
+
+peoples_republic_reform = {
+	icon = "castle"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		republican_tradition = 0.5
+	}
+}
+
+union_of_communes_reform = {
+	icon = "crown"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		global_trade_goods_size_modifier = 0.25
+	}
+}
+
+stateless_society_reform = {
+	icon = "politician"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		state_maintenance_modifier = -1
+	}
+}
+
+#Gulags
+gulag_reform = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_unrest = -5
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+re_education_reform = {
+	icon = "trading_city"
+	allow_normal_conversion = yes
+	modifiers = {
+		technology_cost = -0.25
+		idea_cost = -0.25
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+freedom_reform = {
+	icon = "king_2"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_unrest = 10
+		years_of_nationalism = 10
+		religious_unity = -1
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+#Division of Wealth
+hard_working_reform = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		yearly_corruption = 1
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+welfare_reform = {
+	icon = "trading_city"
+	allow_normal_conversion = yes
+	modifiers = {
+		prestige = 1
+		advisor_cost = 0.5
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+equity_reform = {
+	icon = "king_2"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_unrest = -5
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+#Means of Production
+seize_the_means_of_production_reform = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		production_efficiency = 2.5
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+keep_kulaks_alive_reform = {
+	icon = "trading_city"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = -1
+		global_trade_goods_size_modifier = -1
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+not_starve_the_ukraine_reform = {
+	icon = "king_2"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_unrest = 5
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+#traitors
+gulag_vara_reform = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 5
+		yearly_corruption = -1
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+
+gulag_jay_reform = {
+	icon = "trading_city"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_unrest = 100
+		prestige = -10
+	}
+	ai_chance = {
+		factor = 1
+	}
+}
+

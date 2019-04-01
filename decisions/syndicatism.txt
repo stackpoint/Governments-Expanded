@@ -1,0 +1,14 @@
+country_decisions = {
+
+	rise_of_the_proletariat = {
+		potential = {
+			was_player = yes
+		}
+		allow = {
+
+		}
+		effect = {
+			change_government = communism
+		}
+	}
+}

@@ -1,0 +1,40 @@
+communism = {
+	basic_reform = republic_mechanic
+	
+	reform_levels = {
+		peoples_power = {
+			reforms = {
+				peoples_republic_reform
+				union_of_communes_reform
+				stateless_society_reform
+			}
+		}
+		gulags = {
+			reforms = {
+				gulag_reform
+				re_education_reform
+				freedom_reform
+			}
+		}
+		distribution_of_wealth = {
+			reforms = {
+				hard_working_reform
+				welfare_reform
+				equity_reform
+			}
+		}
+		means_of_production = {
+			reforms = {
+				seize_the_means_of_production_reform
+				keep_kulaks_alive_reform
+				not_starve_the_ukraine_reform
+			}
+		}
+		traitors = {
+			reforms = {
+				gulag_vara_reform
+				gulag_jay_reform
+			}
+		}
+	}
+}
