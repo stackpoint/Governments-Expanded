@@ -23,6 +23,22 @@ country_decisions = {
 		}
 	}
 	
+	reforms_me_form_prussia = {
+		major = yes
+		potential = {
+			tag = TEU
+		}
+		allow = {
+		}
+		effect = {
+			change_tag = PRU
+			add_government_reform = prussian_monarchy
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
 	reforms_me_french_absolutism = {
 		major = yes
 		potential = {

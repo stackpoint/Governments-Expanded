@@ -195,7 +195,7 @@
  italian_mercenaries_reform_desc: "Well paid mercenaries perform as well as any national army. Relying on them (and lining their pockets with a bit of extra coin) will give us the edge over nations that must rely on their subjects to fight for them."
  turkish_iqta_reform: "Turkish Ikta"
  turkish_iqta_reform_desc: "The Ikta system allowed the empire to maintain a cavalry army with little cost to the state, And allows us to hold a relatively large force in semi-mobilized state."
- imperial_circles_reform: "Lead the Imperical Circle" 
+ imperial_circles_reform: "Lead the Imperial Circle" 
  imperial_circles_reform_desc: "We can trust in our imperial kinfolk to bolster our national armies. Strong integration with our Circle will allow us to field more troops for less coin by means of a common defensive structure." 
  tatar_mercenaries_reform: "Tatar Mercenaries"
  tatar_mercenaries_reform_desc: "By setting up turkic mercenary captains, we can use them to attract strong and loyal mercenaries in times of war."
@@ -374,7 +374,7 @@
  estate_diplomat.tooltip:1 "Recruit Noble Diplomats, granting §G10%§! Improve Relations for 15 years"
  tax_peasants_tooltip:1 "Get §G0.5§! yearly tax and §G10%§! tax efficiency in each province owned by the Peasant Estate."
  register_peasants_tooltip:1 "Get §G100§! max manpower and §G10%§! Manpower in each province owned by the Peasant Estate."
- born_to_rule_tooltip:1 "[Root.Ruler.GetName] will be elected, as is his birthright."
+ born_to_rule_tooltip:1 "The Prince will be elected, as is his birthright."
  decentralized_25_a_tooltip:1 "Give each [decentralize_cycle_GE_pos.Culture.GetName] province §G+1 yearly tax§! and §G-5%§! development cost."
  
  elections.EVTNAME7001:1 "American Elections"
@@ -413,6 +413,8 @@
  reforms_me_habsburg_monarchy_desc:1 "The union of crowns on the Habsburg head has led to a governmental infrastructure much more diverse then just the rule of the archduchy."
  reforms_me_austrian_empire_title:1 "Declare the Austrian Empire"
  reforms_me_austrian_empire_desc:1 "The Austrian Empire was part of the Habsburg attempt to germanize and centralize the vast lands of the Austrian Habsburgs into a proper nation state, with a unified culture, language and administrative system."
+ reforms_me_form_prussia_title:1 "Declare Prussia"
+ reforms_me_form_prussia_desc:1 "For my ami."
  
  reforms_me_french_reformed_feudalism_title:1 "Reform the French Feudal System"
  reforms_me_french_reformed_feudalism_desc:1 "By reducing the power of the french nobility and stabilizing our realm, we can finally reduce their privileges and power, no longer will we be bound by their whims!"
