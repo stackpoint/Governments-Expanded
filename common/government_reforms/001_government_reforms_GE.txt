@@ -171,6 +171,7 @@ roman_law_reform = {
 	}
 	modifiers = {
 		papal_influence = 1
+		max_states = 1
 	}
 	ai_chance = {
 		factor = 1
@@ -286,7 +287,7 @@ holy_war_reform = {
 		manpower_recovery_speed = 0.10
 	}
 	custom_attributes = {
-		enables_holy_war = yes
+		enables_holy_war = yes #The Greater Good of God
 	}
 	ai_chance = {
 		factor = 1
