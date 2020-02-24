@@ -13,6 +13,7 @@ GE_confederacy = {
 				GE_confederacy_chiefdom
 				GE_confederacy_council_of_elders
 				GE_confederacy_iroqouis_matriarchy 
+				GE_confederacy_horde
 			}
 		}
 		GE_cultural_tradition = {
@@ -20,6 +21,20 @@ GE_confederacy = {
 				GE_confederacy_tradition_of_peace 
 				GE_confederacy_tradition_of_war 
 				GE_confederacy_tradition_of_art
+			}
+		}
+		GE_basic_court = {
+			reforms = {
+				GE_confederacy_expansive_court
+				GE_confederacy_limited_court
+				GE_confederacy_no_court
+			}
+		}
+		GE_tribal_military = {
+			reforms = {
+				GE_confederacy_pew_pew
+				GE_confederacy_stab_stab
+				GE_confederacy_plz_no
 			}
 		}
 	}

@@ -27,18 +27,20 @@ country_event = {
 				NOT = { has_country_modifier = Iroqouis_Matriarchy }
 			}
 			AND = {
-				NOT = { 
-					employed_advisor = {
-						is_male = no
-						category = ADM
-					}
-					employed_advisor = {
-						is_male = no
-						category = DIP
-					}
-					employed_advisor = {
-						is_male = no
-						category = MIL
+				NOT = {
+					AND = {
+						employed_advisor = {
+							is_male = no
+							category = ADM
+						}
+						employed_advisor = {
+							is_male = no
+							category = DIP
+						}
+						employed_advisor = {
+							is_male = no
+							category = MIL
+						}
 					}
 				}
 				has_country_modifier = Iroqouis_Matriarchy

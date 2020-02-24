@@ -7413,8 +7413,8 @@ country_event = {
 			AND = {
 				NOT = { 
 					employed_advisor = {
-					culture = ROOT
-					category = ADM
+						culture = ROOT
+						category = ADM
 					}
 					employed_advisor = {
 						culture = ROOT
