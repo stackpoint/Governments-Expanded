@@ -1,0 +1,96 @@
+GE_confederacy_despotate = {
+	icon = "tribal_council"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	monarchy = yes
+	
+	modifiers = {
+		monarch_military_power = 1
+	}
+}
+
+GE_confederacy_iroqouis_matriarchy = {
+	icon = "tribal_council"
+	allow_normal_conversion = yes
+	potential = {
+		tag = IRO
+	}
+	trigger = {
+		tag = IRO
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	monarchy = yes
+	
+	modifiers = {
+		global_unrest = -1
+		female_advisor_chance = 1
+	}
+	custom_attributes = {
+		enables_iroqouis_matriarchy = yes # +1 Legitimacy if you have 3 female advisors
+	}
+}
+
+GE_confederacy_chiefdom = {
+	icon = "tribal_council"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	republic = yes
+	effect = {
+		add_republican_tradition = 75
+	}
+	
+	modifiers = {
+		republican_tradition = 0.5
+	}
+}
+
+GE_confederacy_council_of_elders = {
+	icon = "tribal_council"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	has_devotion = yes
+	effect = {
+		add_devotion = 75
+	}
+	
+	modifiers = {
+		devotion = 1
+	}
+}
+
+GE_confederacy_tradition_of_peace = {
+	icon = "tribal_council"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	modifiers = {
+		global_trade_goods_size_modifier = 0.10
+	}
+}
+
+GE_confederacy_tradition_of_war = {
+	icon = "tribal_council"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	modifiers = {
+		land_morale = 0.10
+	}
+}
+
+GE_confederacy_tradition_of_art = {
+	icon = "tribal_council"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	modifiers = {
+		prestige = 1
+	}
+}

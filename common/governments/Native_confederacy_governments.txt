@@ -1,0 +1,26 @@
+GE_confederacy = {
+
+	color = { 0 0 0 }
+	basic_reform = tribe_mechanic
+	
+	legacy_government = {
+		#screwthis
+	}
+	reform_levels = {
+		GE_basis_of_unity = {
+			reforms = {
+				GE_confederacy_despotate
+				GE_confederacy_chiefdom
+				GE_confederacy_council_of_elders
+				GE_confederacy_iroqouis_matriarchy 
+			}
+		}
+		GE_cultural_tradition = {
+			reforms = {
+				GE_confederacy_tradition_of_peace 
+				GE_confederacy_tradition_of_war 
+				GE_confederacy_tradition_of_art
+			}
+		}
+	}
+}
