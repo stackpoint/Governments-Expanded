@@ -1487,6 +1487,9 @@ general_estates_reform = {
 	modifiers = {
 		production_efficiency = 0.1
 	}
+	#custom_attributes = {
+	#	enables_reintegration_of_provinces = yes
+	#}
 	ai = {
 		factor = 1
 	}

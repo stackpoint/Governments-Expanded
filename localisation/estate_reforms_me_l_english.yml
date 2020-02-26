@@ -949,6 +949,7 @@
  mechanic_enables_jurisprudence_yes: "Jurisprudence: Up to §G-10%§! Idea cost and §G-20%§! Admin Technology Cost depending on your average Autonomy."
  mechanic_enables_varangian_guard_yes: "Varangian Guard: §G+2.5%§! Mercenary Discipline if you have a Scandinavian ally or subject."
  
+ mechanic_enables_reintegration_of_provinces_yes: "Reintegration of Lost Provinces: §G-15%§! Core Creation Cost on claimed provinces."
  
  #Edicts
  edict_expanded_theme_system: "Expanded Theme System"

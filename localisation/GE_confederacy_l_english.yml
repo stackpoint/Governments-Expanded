@@ -23,7 +23,8 @@
  GE_confederacy_tradition_of_art_desc: "we like painting and praying to slaanesh."
 
  #Reforms Tier 3
- 
+ GE_confederacy_expansive_court: "Expansive Court"
+ GE_confederacy_expansive_court_desc: "the court is one big family!"
  
  #Mechanics
  mechanic_enables_iroqouis_matriarchy_yes: "Iroqouis Matriarchy: §G+1§! Legitimacy if you have 3 female advisors."

@@ -305,3 +305,19 @@ on_monarch_death = {
 		country_event = { id = ME_Zapadoslavia_Events.9 }
 	}
 }
+on_province_owner_change = {
+	events = {
+		japan.1
+		reform_me_events.171
+	}
+
+	if = {
+		limit = {
+			owned_by = SRU
+			exists = ARA
+		}
+		ARA = {
+			set_country_flag = ARA_defeat_saruhan
+		}
+	}
+}

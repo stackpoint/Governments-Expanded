@@ -606,7 +606,9 @@ Jurisprudence_10 = {
 	idea_cost = -0.01
 	adm_tech_cost_modifier = -0.02
 }
-
+reintegration_of_provinces = {
+	local_core_creation = -0.15
+}
 
 
 	
