@@ -275,18 +275,20 @@ minorities_rebels = {
 			create_vassal = REB
 		}
 		REB = {
-			random_country = {
-				limit = {
-					has_country_flag = target_of_release_rebels_of_@PREV
-				}
-				vassalize = PREV
-				clr_country_flag = target_of_release_rebels_of_@PREV
-			}
 			every_country = {
 				limit = {
-					has_country_flag = target_of_release_rebels_of_@PREV
+					any_owned_province = {
+						any_neighbor_province = {
+							has_province_flag = liberator_FRA
+						}
+					}
+					#has_country_flag = liberator_@THIS
 				}
-				clr_country_flag = target_of_release_rebels_of_@PREV
+				vassalize = REB
+			}
+			FRA = {
+				country_event = { id = test_event.1	}
+				country_event = { id = GE_privileges.4 }
 			}
 		}
 	}

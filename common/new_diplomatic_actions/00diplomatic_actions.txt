@@ -102,6 +102,12 @@ liberate_minorities = {
 						set_country_flag = target_of_release_rebels_of_@PREV
 					}
 				}
+				ROOT = {
+					PREV = {
+						set_province_flag = liberator_FRA
+					}
+					set_country_flag = liberator_@PREV
+				}
 				spawn_rebels = {
 					type = minorities_rebels
 					size = 3
