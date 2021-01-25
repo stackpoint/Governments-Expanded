@@ -31,22 +31,10 @@ republican_virtues_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		max_absolutism = -20
@@ -69,22 +57,10 @@ citizen_soldiers_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		global_regiment_recruit_speed = -0.20
@@ -103,22 +79,10 @@ institutionalized_repbulican_army_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		army_tradition = 0.5
@@ -139,22 +103,10 @@ federalism_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		governing_capacity = 250
@@ -170,22 +122,10 @@ supremacy_constitution_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		min_autonomy_in_territories = -0.10
@@ -203,22 +143,10 @@ primacy_legislature_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		possible_adm_policy = 1
@@ -235,22 +163,10 @@ judicial_review_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		stability_cost_modifier = -0.20
@@ -267,22 +183,10 @@ imperial_executive_branch_power_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		advisor_cost = -0.15
@@ -297,22 +201,10 @@ federal_governorship_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		state_maintenance_modifier = -0.25
@@ -331,22 +223,10 @@ amendable_constitution_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		reform_progress_growth = 0.25
@@ -366,22 +246,10 @@ electoral_college_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		num_accepted_cultures = 2
@@ -396,22 +264,10 @@ direct_majority_rule_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		global_autonomy = -0.05
@@ -428,22 +284,10 @@ vice_presidential_system_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		diplomatic_reputation = 1
@@ -457,22 +301,10 @@ legislative_office_selection_reform = {
 	allow_normal_conversion = yes
 	effect = {}
 	potential = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	trigger = {
-		OR = {
-			has_reform = constitutional_republic_reform
-			OR = {
-				current_age = age_of_absolutism
-				current_age = age_of_revolutions
-			}
-		}
+		has_reform = constitutional_republic_reform
 	}
 	modifiers = {
 		burghers_influence_modifier = 0.10
