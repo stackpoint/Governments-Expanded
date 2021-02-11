@@ -26,6 +26,7 @@ kingdom_of_sicily_reform = {
 		factor = 100
 	}
 }
+
 genoan_republic_reform = {
 	icon = "genoa"
 	allow_normal_conversion = yes
@@ -81,7 +82,6 @@ genoan_republic_reform = {
 		is_merchant_republic = yes
 	}
 }
-
 florentine_republic = {
 	icon = florentine_republic
 	allow_normal_conversion = yes
@@ -197,6 +197,34 @@ lombardy_venetia_reform = {
 		republican_tradition = 0.5
 		army_tradition = 0.15
 		navy_tradition = 0.15
+	}
+	ai = {
+		factor = 100
+	}
+}
+kingdom_of_sardinia_reform = {
+	icon = kingdom_of_sardinia
+	allow_normal_conversion = yes
+	valid_for_nation_designer = no
+	potential = {
+		OR = {
+			primary_culture = sardinian
+			primary_culture = piedmontese
+			has_reform = kingdom_of_sardinia_reform
+		}
+	}
+	trigger = {
+		tag = SPI
+		OR = {
+			primary_culture = sardinian
+			primary_culture = piedmontese
+			has_reform = kingdom_of_sardinia_reform
+		}
+	}
+	modifiers = {
+		max_absolutism = 5
+		state_maintenance_modifier = -0.10
+		primary_development_cost = 0.10
 	}
 	ai = {
 		factor = 100
@@ -397,6 +425,33 @@ rule_by_consent_reform = {
 	}
 	custom_attributes = {
 		enables_deposition = yes
+	}
+	ai = {
+		factor = 100
+	}
+}
+genoa_merchants_reform = {
+	icon = "merchant"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = GEN
+			was_tag = GEN
+		}
+		NOT = { has_reform = pirate_republic_reform }
+	}
+	trigger = {
+		OR = {
+			tag = GEN
+			was_tag = GEN
+		}
+	}
+	modifiers = {
+		trade_range_modifier = 0.20
+		envoy_travel_time = -0.15
+	}
+	custom_attributes = {
+		enables_ianuensis_ergo_mercator = yes #30 global settler at 15% trade efficiency
 	}
 	ai = {
 		factor = 100

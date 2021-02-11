@@ -96,6 +96,7 @@ monarchy = {
 				#1.15
 				mantua_house_of_gonzaga_reform
 				tanistry_reform
+				kingdom_of_sardinia_reform
 			}
 		}
 		hereditary_vs_nobility = {
@@ -715,6 +716,7 @@ republic = {
 				hanseatic_ties_reform
 				archdiocese_of_pisa_reform
 				republican_virtues_reform
+				genoa_merchants_reform
 			}
 		}
 		frequent_elections_vs_consolidation_of_power = {
