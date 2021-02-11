@@ -470,8 +470,8 @@ country_event = {
 	immediate = {
 		if = {
 			limit = {
-				trade_efficiency = 0.05
-				NOT = { trade_efficiency = 0.10 }
+				trade_efficiency = 0.10
+				NOT = { trade_efficiency = 0.20 }
 				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_1 }
 			}
 			add_country_modifier = {
@@ -482,8 +482,8 @@ country_event = {
 		}
 		if = {
 			limit = {
-				trade_efficiency = 0.10
-				NOT = { trade_efficiency = 0.15 }
+				trade_efficiency = 0.20
+				NOT = { trade_efficiency = 0.30 }
 				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_2 }
 			}
 			add_country_modifier = {
@@ -494,7 +494,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				trade_efficiency = 0.15
+				trade_efficiency = 0.30
 				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_3 }
 			}
 			add_country_modifier = {
@@ -505,7 +505,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trade_efficiency = 0.05 }
+				NOT = { trade_efficiency = 0.10 }
 				OR = {
 					has_country_modifier = GE_Genoese_Merchants_Explorers_1
 					has_country_modifier = GE_Genoese_Merchants_Explorers_2
