@@ -451,7 +451,7 @@ genoa_merchants_reform = {
 		envoy_travel_time = -0.15
 	}
 	custom_attributes = {
-		enables_ianuensis_ergo_mercator = yes #10 global settler per every 10% Trade Efficiency
+		enables_ianuensis_ergo_mercator = yes #10 global settler per every 30% Trade Efficiency
 	}
 	ai = {
 		factor = 100

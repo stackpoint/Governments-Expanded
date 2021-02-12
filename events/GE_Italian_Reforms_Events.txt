@@ -441,24 +441,34 @@ country_event = {
 		has_government_attribute = enables_ianuensis_ergo_mercator
 		OR = {
 			AND = {
-				NOT = { trade_efficiency = 0.05 }
+				NOT = { trade_efficiency = 0.30 }
 				OR = {
 					has_country_modifier = GE_Genoese_Merchants_Explorers_1
 					has_country_modifier = GE_Genoese_Merchants_Explorers_2
-					has_country_modifier = GE_Genoese_Merchants_Explorers_3				
+					has_country_modifier = GE_Genoese_Merchants_Explorers_3
+					has_country_modifier = GE_Genoese_Merchants_Explorers_4
+					has_country_modifier = GE_Genoese_Merchants_Explorers_5
 				}
 			}
 			AND = {
-				trade_efficiency = 0.05
+				trade_efficiency = 0.30
 				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_1 }
 			}
 			AND = {
-				trade_efficiency = 0.1
+				trade_efficiency = 0.40
 				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_2 }
 			}
 			AND = {
-				trade_efficiency = 0.15
+				trade_efficiency = 0.50
 				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_3 }
+			}
+			AND = {
+				trade_efficiency = 0.70
+				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_4 }
+			}
+			AND = {
+				trade_efficiency = 0.70
+				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_5 }
 			}
 		}
 	}
@@ -470,8 +480,8 @@ country_event = {
 	immediate = {
 		if = {
 			limit = {
-				trade_efficiency = 0.10
-				NOT = { trade_efficiency = 0.20 }
+				trade_efficiency = 0.30
+				NOT = { trade_efficiency = 0.40 }
 				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_1 }
 			}
 			add_country_modifier = {
@@ -479,11 +489,15 @@ country_event = {
 				duration = -1
 				hidden = yes
 			}
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_2
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_3
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_4
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_5
 		}
 		if = {
 			limit = {
-				trade_efficiency = 0.20
-				NOT = { trade_efficiency = 0.30 }
+				trade_efficiency = 0.40
+				NOT = { trade_efficiency = 0.50 }
 				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_2 }
 			}
 			add_country_modifier = {
@@ -491,10 +505,15 @@ country_event = {
 				duration = -1
 				hidden = yes
 			}
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_1
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_3
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_4
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_5
 		}
 		if = {
 			limit = {
-				trade_efficiency = 0.30
+				trade_efficiency = 0.50
+				NOT = { trade_efficiency = 0.60 }
 				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_3 }
 			}
 			add_country_modifier = {
@@ -502,19 +521,58 @@ country_event = {
 				duration = -1
 				hidden = yes
 			}
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_1
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_2
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_4
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_5
 		}
 		if = {
 			limit = {
-				NOT = { trade_efficiency = 0.10 }
+				trade_efficiency = 0.60
+				NOT = { trade_efficiency = 0.70 }
+				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_4 }
+			}
+			add_country_modifier = {
+				name = GE_Genoese_Merchants_Explorers_4
+				duration = -1
+				hidden = yes
+			}
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_1
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_2
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_3
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_5
+		}
+		if = {
+			limit = {
+				trade_efficiency = 0.70
+				NOT = { has_country_modifier = GE_Genoese_Merchants_Explorers_5 }
+			}
+			add_country_modifier = {
+				name = GE_Genoese_Merchants_Explorers_5
+				duration = -1
+				hidden = yes
+			}
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_1
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_2
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_3
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_4
+		}
+		if = {
+			limit = {
+				NOT = { trade_efficiency = 0.30 }
 				OR = {
 					has_country_modifier = GE_Genoese_Merchants_Explorers_1
 					has_country_modifier = GE_Genoese_Merchants_Explorers_2
-					has_country_modifier = GE_Genoese_Merchants_Explorers_3				
+					has_country_modifier = GE_Genoese_Merchants_Explorers_3
+					has_country_modifier = GE_Genoese_Merchants_Explorers_4
+					has_country_modifier = GE_Genoese_Merchants_Explorers_5
 				}
 			}
 			remove_country_modifier = GE_Genoese_Merchants_Explorers_1
 			remove_country_modifier = GE_Genoese_Merchants_Explorers_2
 			remove_country_modifier = GE_Genoese_Merchants_Explorers_3
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_4
+			remove_country_modifier = GE_Genoese_Merchants_Explorers_5
 		}
 	}
 	
