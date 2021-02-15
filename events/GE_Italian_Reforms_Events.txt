@@ -390,7 +390,7 @@ country_event = {
 		has_government_attribute = enables_teulie
 		OR = {
 			AND = {
-				republican_tradition = 75
+				republican_tradition = 80
 				NOT = { has_country_modifier = GE_Teulie_1 }
 			}
 			AND = {

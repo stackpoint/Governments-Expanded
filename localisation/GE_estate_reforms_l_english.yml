@@ -23,7 +23,7 @@
  mechanic_enables_marriage_policies_yes: "Marriage Policies: §G+5%§! §YImprove Relations§! for every 1 point of positive diplomatic reputation, up to §G25%§!"
  mechanic_enables_galleria_celeste_yes: "Galleria Celeste: §G+12§! §YYearly Tax§! for every 5% of idea cost"
  mechanic_enables_ordine_cordone_giallo_yes: "Ordine del Cordone Giallo: §G+5%§! Cavalry Combat Ability and §G+1§! Papal Influence for every §Y+2§! Tolerance of the True Faith over 4"
- mechanic_enables_teulie_yes: "Teulè: §G+3.0%§! Infantry Combat Ability and §G+3%§! Galley Combat Ability for every §Y10§! Republican Tradition over §Y50§!."
+ mechanic_enables_teulie_yes: "Teulè: §G+1.00§! Land Leader Manuver and §G+1.00§! Naval Lader Fire while over §Y80§! Republican Tradition."
  mechanic_enables_ianuensis_ergo_mercator_yes: "Explorer and Merchants: §G+10§! Global Settler for every §M10%§! of Trade Efficiency above §Y30§!, up to §G70§!"
 
  #Constitutional Republics

@@ -192,11 +192,31 @@ lombardy_venetia_reform = {
 	custom_attributes = {
 		enables_nepotism = yes
 	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		trade_city_reform = trading_city
+	}
 	modifiers = {
 		max_absolutism = -30
 		republican_tradition = 0.5
 		army_tradition = 0.15
 		navy_tradition = 0.15
+		trade_deals_slots = 0.02
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
 	}
 	ai = {
 		factor = 100
@@ -688,7 +708,7 @@ teulie_reform_republic_reform = {
 		galley_cost = -0.10
 	}
 	custom_attributes = {
-		enables_teulie = yes #+1 land leader manuver and 1 naval leader fire when over 75 RT
+		enables_teulie = yes #+1 land leader manuver and 1 naval leader fire when over 80 RT
 	}
 	ai = {
 		factor = 1
