@@ -407,7 +407,13 @@
  GE_Tunisian_Grain_Trade: "Tunisian Grain Imports"
  GE_Tunisian_Grain_Production: "Tunisian Grain Exports"
  GE_Italian_Grain_Treaties: "Italian Grain Exports"
- 
+ GE_Foreign_Students_1: "Foreign Students"
+ GE_Foreign_Students_2: "Foreign Students"
+ GE_Foreign_Students_3: "Foreign Students"
+ GE_Foreign_Students_4: "Foreign Students"
+ GE_Foreign_Students_5: "Foreign Students"
+
+
  GE_vassal_tax_script_1: "Vassal Tax Income"
  GE_vassal_tax_script_2: "Vassal Tax Income"
  GE_vassal_tax_script_3: "Vassal Tax Income"
@@ -825,3 +831,7 @@
  GE_Ghulams_Estate_Ghulam_Advisors: "Ghulam Advisors"
  GE_Ghulams_Estate_New_Cannons: "New Cannons"
  GE_Ghulams_Estate_Order_Restored: "Order Restored"
+
+ GE_rajput_regiments: "Rajput Regiments"
+ GE_ghulam_regiments: "Ghulam Regiments"
+ GE_guards_regiments: "Guard Regiments"

@@ -96,6 +96,8 @@ monarchy = {
 				#1.15
 				mantua_house_of_gonzaga_reform
 				tanistry_reform
+				#1.16
+				kingdom_of_gao_reform
 				kingdom_of_sardinia_reform
 			}
 		}
@@ -180,6 +182,10 @@ monarchy = {
 				#1.15
 				wattasid_viziers_reform
 				tribal_tribute_reform
+				guild_dominance_reform_upgrade
+				#1.16
+				slave_farmer_reform
+				carriers_of_the_quiver_reform
 			}
 		}
 		bureaucracy = {
@@ -256,6 +262,9 @@ monarchy = {
 				regional_kasbah_reform
 				exiled_qaids_reform
 				kingdom_of_cities_reform
+				#1.16
+				kinsmen_governors_reform
+				farba_system_reform
 			}
 		}
 		military_organisation = {
@@ -322,6 +331,9 @@ monarchy = {
 				jayish_al_malik_reform
 				mantua_knightly_orders_reform
 				bedouin_reserves_reform
+				#1.16
+				slave_soldiers_reform
+				farari_commanders_reform
 			}
 		}
 		growth_of_administration = {
@@ -382,6 +394,8 @@ monarchy = {
 				doctrines_of_al_jazuli_reform
 				mantua_mecenatismo_mantovano_reform
 				italian_merchants_reform
+				#1.16
+				graduates_from_timbuktu_reform
 			}
 		}
 		deliberative_assembly = {
@@ -440,6 +454,9 @@ monarchy = {
 				nomad_councils_reform
 				office_of_kanzler_reform
 				diamond_of_the_earth_reform
+				#1.16
+				secure_the_succession_reform
+				gbara_reform
 			}
 		}
 		economic_policy = {
@@ -685,7 +702,7 @@ republic = {
 				caucasian_republic
 				common_republic_reform
 				lombardy_venetia_reform
-				#constitutional_republic_reform
+				constitutional_republic_reform
 			}
 		}
 		republican_virtues = {
@@ -725,8 +742,8 @@ republic = {
 				consolidation_of_power_reform
 				consolidate_power_in_doge_reform
 				consolidate_power_in_cities_reform
-				permanent_marathas_council_reform
-				governmental_purbias_register_reform
+				#permanent_marathas_council_reform
+				#governmental_purbias_register_reform
 				lottery_reform
 				council_of_the_indies_reform
 				legislative_assembly_reform
@@ -752,8 +769,8 @@ republic = {
 				tatar_mercenaries_reform
 				south_east_asian_elephants_reform
 				portugese_marines_reform
-				permanent_marathas_council_reform
-				governmental_purbias_register_reform
+				permanent_marathas_council_reform_republic
+				governmental_purbias_register_reform_republic
 				foreign_formation_regiments_reform
 				general_war_commissariat_reform
 				gustavan_artillery_reform

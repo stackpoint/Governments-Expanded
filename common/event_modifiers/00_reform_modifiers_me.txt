@@ -940,6 +940,21 @@ GE_Tunisian_Grain_Production = {
 GE_Italian_Grain_Treaties = {
 	trade_efficiency = 0.10
 }
+GE_Foreign_Students_1 = {
+	adm_advisor_cost = -0.05
+}
+GE_Foreign_Students_2 = {
+	adm_advisor_cost = -0.10
+}
+GE_Foreign_Students_3 = {
+	adm_advisor_cost = -0.15
+}
+GE_Foreign_Students_4 = {
+	adm_advisor_cost = -0.20
+}
+GE_Foreign_Students_5 = {
+	adm_advisor_cost = -0.25
+}
 	
 	
 #Cortez
@@ -1382,13 +1397,23 @@ GE_Ghulams_Estate_Order_Restored = {
 	legitimacy = 1
 	prestige = 0.5
 }
-
-
-
-
-
-
-
+GE_rajput_regiments = {
+	drill_decay_modifier = -0.25
+	reinforce_cost_modifier = -0.5
+	land_morale = 0.05
+	is_rajput_modifier = yes
+}
+GE_ghulam_regiments = {
+	drill_gain_modifier = 0.25
+	infantry_fire = 0.5
+	is_rajput_modifier = yes
+}
+GE_guards_regiments = {
+	land_maintenance_modifier = 1
+	reinforce_speed = -0.50
+	discipline = 0.05
+	is_rajput_modifier = yes
+}
 
 
 

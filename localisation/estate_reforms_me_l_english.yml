@@ -32,7 +32,9 @@
  ancien_regime_reform_desc: "The administration of France has become increasingly corrupt under the current Ancien Régime. It is in the states interest to implement an intendancy system to centralize our realm and to root out the influence of those who are not loyal to the crown."
  guild_dominance_reform: "Dutch Guilds"
  guild_dominance_reform_desc: "The Dutch guilds always had a lot of power, by granting them access to the government through official channels we will be able to let our guilds expand their trade networks into the Hansa or embark on voyages to the orient"
- the_holy_office_reform: "The Holy Office"
+ guild_dominance_reform_upgrade: "United Dutch Guilds"
+ guild_dominance_reform_upgrade_desc: "The Dutch guilds always had a lot of power, by granting them access to the government through official channels we will be able to let our guilds expand their trade networks into the Hansa or embark on voyages to the orient"
+the_holy_office_reform: "The Holy Office"
  the_holy_office_reform_desc: "With the proclamation of the Licet ab initio, the creation of the Supreme Sacred Congregation of the Roman and Universal Inquisition, we shall defend Catholic Doctrine and root out heresy."
  margrave_reform: "Margrave"
  margrave_reform_desc: "The greater exposure of a border province to military invasion mandated that the margrave be provided with military forces and autonomy of action (political as well as military) greater than those accorded other lords of the realm. As a military governor, the margrave's authority often extended over a territory larger than the province proper, because of border expansion subsequent to royal wars."
@@ -758,7 +760,7 @@
  absolutist_administration_reform: "Absolutist Administration"
  absolutist_administration_reform_desc: "When the Hongwu Emperor was alive, he hoped to create a stable society with submissive subjects. Such an Empire needs to be led by a strong and benevolent son, not a group of literati."
  permanent_regency_reform: "Permanent Regency"
- permanent_regency_reform_desc: "Taoism believes that great monarch rules by well by doing nothing. To do so, he must retreat behind the scenes and hand over political affairs to the First and Second cabinets, as well as civil literary scholars who are not only capable in confucian classic, but also ambitious."
+ permanent_regency_reform_desc: "Taoism believes that a great monarch rules well by doing nothing. To do so, he must retreat behind the scenes and hand over political affairs to the First and Second cabinets, as well as civil literary scholars who are not only capable in confucian classic, but also ambitious."
  
  sharifate_reform: "Sharifate"
  sharifate_reform_desc: "Akin to European feudal nobility, Ashraf were essentially wealthy, hereditary landowners, but differed in their methods of rule. Sharifates were highly centralized around religious centers such as Mecca or Medina, and thus ruled with a heavy dependency on theological principles, with heavy emphasis on Islamic law and punishment."
@@ -907,6 +909,10 @@
  support_ghibbelline_republic_reform_desc: "Italy is a chaotic and disunified region, and we weep seeing the constant bloodshed between squabbling city-states. We must aid the Holy Roman Emperor in reining in, and ultimately bringing peace to Italy. Let us join the Ghibelline faction and help bring order and peace to Italy."
  support_guelphs_republic_reform: "Support Guelphs"
  support_guelphs_republic_reform_desc: "There are those who believe that the Emperor has a higher authority than the pope. This is bordering on heresy, and they must realize the folly of their ways. The Guelph faction seeks to drive out the German "Emperor" from our wonderful Italy, and we will rally our merchants and clergymen in their support."
+ permanent_marathas_council_reform_republic: "Permanent Marathas Council"
+ permanent_marathas_council_reform_republic_desc: "Maratha generals and civic leaders are an important part of the balance of power in our nation. We should formalize their assemblies and establish a permanent council of the Marathas to guide our nation."
+ governmental_purbias_register_reform_republic: "Governmental Purbias Register"
+ governmental_purbias_register_reform_republic_desc: "The state is taking measures to attract elite Rajput warriors from all over India. Steps should be taken to organize these warriors into cohesive regiments upon arrival so that they can be deployed more effectively."
 
  republican_guard_reform_republic: "Republican Guard"
  republican_guard_reform_republic_desc: "If we establish a Republican Guard made up of the most dedicated souls of our populace we can be guarenteed of their fervor in battle, and have this elite corps be readily filled among those inspired by our republic!"
@@ -1017,6 +1023,28 @@
  tanistry_reform: "Tanistry"
  tanistry_reform_desc: "Tanistry is a form of Irish elective monarchy where the heirs are chosen from lesser parts of the family to ensure a balance of power between the rich and the powerfull to ensure no member is left behind."
 
+ #1.16
+ kingdom_of_gao_reform: "Kingdom of Gao"
+ kingdom_of_gao_reform_desc: "Hailing from the powerful city of Goa, we have grown strong and thrown off the Malian overlordship, and are ready to claim the Niger Valley as our own."
+ slave_farmer_reform: "Slave Farmers"
+ slave_farmer_reform_desc: "Victims of war and raids are put to work in newly established villages. Trough the granting privileges to the slaveholders we can increase their productivity and allow them to expand their slave settlements."
+ kinsmen_governors_reform: "Kinsmen Governors"
+ kinsmen_governors_reform_desc: "Through the use of our kinsmen as governors rather then unrelated nobles, we can ensure their loyalty to the monarch."
+ slave_soldiers_reform: "Slave Soldiers"
+ slave_soldiers_reform_desc: "By training and arming groups of slaves and making them function as a standing army we can ensure that our forces are better trained and will ensure we can rely on our soldiers without being dependent on tribal or noble troops!"
+ graduates_from_timbuktu_reform: "Graduates from Timbuktu"
+ graduates_from_timbuktu_reform_desc: "Hailing from the Timbuktu University, these learned men have received the finest education the Islamic world has to offer. Hailing from all of the Niger Valley, as well as faraway lands from beyond the Sahara."
+ secure_the_succession_reform: "Secure the Succession"
+ secure_the_succession_reform_desc: "By establishing a tradition of primogeniture we can bring an end to the civil wars that are ravaging our country."
+
+ carriers_of_the_quiver_reform: "Djon-Tan-Nor-Woro"
+ carriers_of_the_quiver_reform_desc: "The 'Djon-Tan-Nor-Woro' or Carriers of Quivers are the clans responsible for providing the military backbone of the empire. Their lineages are filled with heroic warriors, great generals and acts of bravery. Their position on the borderlands ensure that no enemy can enter our realm unhindered!"
+ farba_system_reform: "Farba System"
+ farba_system_reform_desc: "A 'Farba', or great commander, was an honorary title worn by the Malian commander that accompanied the vassal kings of the Mali Empire. By leaving the civilian rule over a province in the hands of the natives and keeping the military control in the hands of a Malian loyalist, uprisings could be crushed before they gained momentum."
+ farari_commanders_reform: "Farari Commanders"
+ farari_commanders_reform_desc: "Farari, or brave men, were cavalry captains that led a company of cavalry and directed several companies of infantrymen during campaigns and battles. These infantrymen, led by a 'Kele-koun', or war-heads, were freemen equipped by their local custom or by their commander in case of poverty."
+ gbara_reform: "Gbara"
+ gbara_reform_desc: "The 'Gbara', or Great Assembly, functioned as the deliberative body following the foundation of the Mali empire by Sundiata Keita. With 32 seats for representatives from 29 clans, and spread over four factions. It was a highly diverse and capable advisatory organ."
 
  mechanic_enable_factional_elections_yes:0 "Factional Elections: Enables bribes during Elections."
  mechanic_enables_grand_captain_yes:0 "Grand Assembly: 'Raise Additional Levies' costs no loyalty, and grants additional Manpower and a Advisor."
@@ -1229,6 +1257,12 @@
  mechanic_enables_office_of_chancellor_yes: "Office of Chancellor: Enables you to appoint a chancellor from among the Burgher Estate, granting you §G+1§! monthly monarch power while the Burghers have over §G60%§! Loyalty."
  mechanic_enables_tanistry_yes: "Tanistry Elective: Enables you to elect an heir from amongst your extended family."
  mechanic_enables_disputed_heir_yes: "Disputed Succession: Causes your heir to face challenges while being groomed for the throne."
+ mechanic_enables_elite_regiments_yes: "Elite Guards: Unlocks the 'Elite Guards' Privilege, granting access to §YElite Regiments§!, which have more discipline." 
+ mechanic_enables_baltic_sea_trade_yes: "Baltic Sea Trade: Gain §G+0.25%§! Naval Tradition for each trade deal with a nation within the Baltic trade Node, up to a maximum of 4 trade deals."
+ #GE 1.16
+ mechanic_enables_foreign_students_yes: "Foreign Students: Gain §G-5%§! Administrative Advisor Cost for each accepted culture, up to a maximum of 5 cultures."
+ mechanic_enables_disputed_succession_yes: "Disputed Succession: Spawn pretenders upon the death of your monarch."
+ mechanic_enables_disputed_succession_no: "Puts an end to the 'Disputed Succession' pretender uprisings."
 
 
  #Edicts
@@ -1318,6 +1352,8 @@
  estate_nobles_berber_guides: "Berber Autonomy"
  estate_nobles_berber_guides_desc: "By granting the Berber tribes autonomy we can ensure they will not raid our armies supply caravans and serve as scouts."
  GE_Berber_Guides: "§G-15%§! Land Attrition while over §Y60§! Noble Loyalty."
+ estate_nobles_elite_guards: "Elite Guards"
+ estate_nobles_elite_guards_desc: "By establishing a Elite Guard of troops loyal to the king, we can ensure that their training and loyalty is without doubt!"
 
  estate_burghers_town_rights: "Town Rights"
  estate_burghers_town_rights_desc: "Granting town rights to many of our cities will increase their productivity and growth."
@@ -1558,7 +1594,7 @@
  korean_bureaucracy_advisor_3: "Korean Bureaucracy: Advisor Level 3"
  korean_bureaucracy_advisor_4: "Korean Bureaucracy: Advisor Level 4"
  korean_bureaucracy_advisor_5: "Korean Bureaucracy: Advisor Level 5"
- 
+ GE_monastic_militarism: "Monastic Militarism"
  
  check_empowered_requirements_again_title:1 "Empowered Requirements"
  check_empowered_requirements_again_desc:1 "Did you forget what the Empowered Reforms were?, here is a little refresher!"
@@ -1643,7 +1679,7 @@
 
  offer_trade_deal_mining_imports: "Request Mining Imports"
  offer_trade_deal_mining_imports_title: "Request Mining Imports"
- offer_trade_deal_mining_imports_desc: "We can offer [From.GetName] an import trade deal to decrease their Inflation by §G0.05§! monthly and increase their Mining Goods Produced Modifier by §G10%§!."
+ offer_trade_deal_mining_imports_desc: "We can offer [From.GetName] an import trade deal to decrease our Inflation by §G0.05§! monthly and increase their Mining Goods Produced Modifier by §G10%§!."
  offer_trade_deal_mining_imports_dialog: "[Root.GetName] has offered us a trade deal where we will get the opportunity to import mining Goods at a premium, allowing us to gain mining Goods Produced Modifier by §G10%§! while the trade deal lasts."
  offer_trade_deal_mining_imports_tooltip: "By offering trade deals we can increase our and our allies economic productivity!"
 
@@ -1745,5 +1781,13 @@
  
  
  AVAILABLE_BECAUSE_OF_TAG_NED: "Available due to being the §YNetherlands§ ."
+
+ RAJPUT_REGIMENT:0 "Elite Regiment\n$EFFECT$"
+ ONLY_RAJPUT_MODIFIER:0 "§YAffects only Elite Regiments§!"
+ enables_rajput_regiments:0 "Elite Regiments"
+ RAJPUT_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GElites§! of $FL$ due to:\n"
+ REGCAT_rajput:0 "Elite"
+ RAJPUT_NAME:0 "$HOME$'s $NUM$$ORDER$ Elites"
+
 
  theocratic_idea_groups_expanded: "Theocratic Ideas"
